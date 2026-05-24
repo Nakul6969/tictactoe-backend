@@ -10,7 +10,7 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: 'http://localhost:4200',
+  origin: 'https://tictactoe-frontend-three.vercel.app',
   credentials: true
 }));
 app.use(express.json());
